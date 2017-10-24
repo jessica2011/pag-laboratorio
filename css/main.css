@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box; /*Para hacer que nuestros bordes y margen este dentro de mi caja*/
+    color: #303030;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*clases reutilizables*/
+.text-uppercase {
+    text-transform: uppercase; /*transforma el texto en mayuscula*/
+}
+
+/*clases especificas*/
+li a {    
+    color: inherit; /*hereda el color del padre, en este caso hereda el color del body*/
+    text-decoration: none;
+}
+
+ul li {
+    display: inline; /*inline-block es para darle un altura. Si se utiliza el inline, no te permite usar un margen o padding*/
+    list-style: none;
+    margin: 10px;
+    
+}
+
+.logo-header {
+    width: 200px;
+}
+/*
+nav {
+    float: right;
+    padding: 20px;
+}
+*/
+
+/* otra fora de colocar tu menu al lado derecho con position*/
+header {
+    position: relative;
+}
+
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); /*es una manera para que mi nav este centrado*/
+}
+
+.box-header {
+    display: inline-block; /*al colocar esto, mis cajas se alinean*/
+
+
+}
+

@@ -42,14 +42,62 @@ header {
 
 nav {
     position: absolute;
-    right: 0;
+    right: 40px;
     top: 50%;
     transform: translateY(-50%); /*es una manera para que mi nav este centrado*/
 }
 
 .box-header {
     display: inline-block; /*al colocar esto, mis cajas se alinean*/
-
-
 }
 
+.logo-square {
+    width: 100px;
+}
+/*
+.logo-square img {
+    width:  100%;
+}
+*/
+section {
+    text-align: center;
+}
+
+div {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5px;
+    width: 30%;
+}
+
+[class^="icon-"], [class*="icon-"] {
+    font-size: 40px;
+    transition: 5s;
+  }
+  
+  li:hover, [class^="icon-"]:hover, [class*="icon-"]:hover {
+    color: #db964a;
+  }
+
+
+
+footer {
+    background-color: #303030;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.btn {
+    background-color: #db964a;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: inherit;
+    padding: 10px;
+  }
+
+.btn:hover {
+    background-color: #644721;
+  }
